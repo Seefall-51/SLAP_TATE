@@ -1,0 +1,110 @@
+{
+  "id": "859c008a-1a86-41ce-99e4-9363f377388e",
+  "version": "2.0",
+  "name": "airtable",
+  "url": "https://airtable.com",
+  "tests": [{
+    "id": "2f20e24b-d1ef-495f-984e-7e6c520d9450",
+    "name": "furniture test",
+    "commands": [{
+      "id": "0b87383d-b401-49f1-b9a6-1bf3bc35db61",
+      "comment": "",
+      "command": "open",
+      "target": "/appYHf2s514gZs53D/pagsWYPgccjijDUWN/form",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59c86271-8763-45c1-a1ea-c85de15d62d5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x892",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c91f45b-3732-4229-9992-fe8f5723ffef",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='reactViewRoot']/div/div/div/div/div/main/div/div/div/div/div/div/div[2]/div[3]/div/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/textarea",
+      "targets": [
+        ["id=f5da7558a0ed12e5d744bc72f596b991", "id"],
+        ["css=#f5da7558a0ed12e5d744bc72f596b991", "css:finder"],
+        ["xpath=//textarea[@id='f5da7558a0ed12e5d744bc72f596b991']", "xpath:attributes"],
+        ["xpath=//div[@id='reactViewRoot']/div/div/div/div/div/main/div/div/div/div/div/div/div[2]/div[3]/div/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c35de70-ff85-4cfe-af9a-168ea8177c45",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[@id='reactViewRoot']/div/div/div/div/div/main/div/div/div/div/div/div/div[2]/div[3]/div/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/textarea",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd2116dd-212c-4d87-869f-642601367211",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover-container",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2fa3baa-765d-4626-b23d-633c96425e0a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tealLight1 > .flex-auto",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e45b2bad-0cf7-4ece-a303-698919d876d1",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[2]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f0c93b2f-9cf7-46d7-8adb-3fd0f9ca5aef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.uppy-u-reset",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "385a5ec8-0a9c-4e3b-863c-a386a1508fb9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.height-full > .justify-center",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03f24c13-5ad6-4170-abd6-0ce47a4b9d2c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='reactViewRoot']/div/div/div/div/div/main/div/div/div/div/div/div/div[2]/div[3]/div/div/div/div/div/div[5]/div/div/div/div/div[2]/div/div/div/input",
+      "targets": [
+        ["id=e64a3b3aa86252900a603a890335e1c8", "id"],
+        ["css=#e64a3b3aa86252900a603a890335e1c8", "css:finder"],
+        ["xpath=//input[@id='e64a3b3aa86252900a603a890335e1c8']", "xpath:attributes"],
+        ["xpath=//div[@id='reactViewRoot']/div/div/div/div/div/main/div/div/div/div/div/div/div[2]/div[3]/div/div/div/div/div/div[5]/div/div/div/div/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28e8b409-7b37-419a-95d0-fdc8488881b4",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='reactViewRoot']/div/div/div/div/div/main/div/div/div/div/div/div/div[2]/div[3]/div/div/div/div/div/div[5]/div/div/div/div/div[2]/div/div/div/input",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "32f2c268-ec2a-4fce-a316-ea68a0345512",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2f20e24b-d1ef-495f-984e-7e6c520d9450"]
+  }],
+  "urls": ["https://airtable.com/"],
+  "plugins": []
+}
